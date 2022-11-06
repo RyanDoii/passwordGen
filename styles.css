@@ -1,0 +1,60 @@
+@keyframes backgroundColorPalette{
+    0%{
+        background: #55eeee;
+    }
+    25%{
+        background: #40b9f1;
+    }
+    50%{
+        background: #29ace9;
+    }
+    75%{
+        background: #13cdee;
+    }
+    100%{
+        background: #227aee;
+    }
+}
+
+
+body{
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.container{
+    background-image: linear-gradient(grey,black);
+    color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: aqua solid;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+.header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(grey,black);
+    border: aqua solid;
+    border-radius: 20px;
+    height: 50px;
+}
+#refresh{
+    color: white;
+    background-image: linear-gradient(aqua,cyan);
+    border-radius: 15px;
+    height: 50px;
+    width: 200px
+}
+#gen{
+    color: white;
+    background-image: linear-gradient(aqua,cyan);
+    border-radius: 15px;
+    height: 50px;
+    width: 200px
+}
